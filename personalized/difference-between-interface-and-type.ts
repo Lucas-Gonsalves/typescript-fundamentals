@@ -22,11 +22,11 @@ type TProduct = TBaseProduct & {
   name: string
 }
 
-let product1: IProduct = { id: 1, name: 'Product a', price: 500 }
+let product1: IProduct = { id: 1, name: 'Product a', price: 500, quantity: 1 }
 
 let product2: TProduct  = { id: 2, name: 'Product b', price: 1000 }
 
 type TypeString = string
 type TypeNumber = number
 
-interface x extends number
+// interface x extends number
